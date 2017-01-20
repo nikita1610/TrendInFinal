@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="MENU">
+    <menu>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_ic_near_me"
+            android:icon="@drawable/ic_near_me"
+            android:title="Hangouts" />
+        <item
+            android:id="@+id/nav_ic_cloud_upload"
+            android:icon="@drawable/ic_cloud_upload"
+            android:title="Share" />
+           </menu>
+</item>
+
+<group android:checkableBehavior="single">
+
+
+
+
+    <item
+        android:id="@+id/nav_ic_public"
+        android:icon="@drawable/ic_public"
+        android:title="Buzz Feed" />
+
+    <item
+        android:id="@+id/nav_ic_settings_black_24dp"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/nav_ic_people"
+        android:icon="@drawable/ic_people"
+        android:title="About Us" />
+</group>
+
+</menu>

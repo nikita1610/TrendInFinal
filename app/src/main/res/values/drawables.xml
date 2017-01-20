@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="home" type="drawable">@drawable/home</item>
+    <item name="ic_near_me" type="drawable">@drawable/ic_near_me</item>
+    <item name="ic_cloud_upload" type="drawable">@drawable/ic_cloud_upload</item>
+    <item name="ic_public" type="drawable">@drawable/ic_public</item>
+    <item name="ic_settings_black_24dp" type="drawable">@drawable/ic_settings_black_24dp</item>
+    <item name="ic_people" type="drawable">@drawable/ic_people</item>
+</resources>

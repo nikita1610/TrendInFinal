@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jaipuria_mall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/jaipura"
+    tools:context="com.trendinfinal.trendinfinal.jaipuria_mall">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear1"
+            android:layout_marginTop="90dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:id="@+id/imageView4" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear2"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/call_order"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="01206493504"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="50dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow"
+                android:layout_marginLeft="90dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear3"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stock_detail" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" Jaipuria Sunrise Plaza, 1st Floor, Plot 12A, Indirapuram, Dr Sushila Naiyar Marg, Ahinsa Khand 1, Indirapuram, Ghaziabad, Uttar Pradesh 201301"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/linear4">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/customer_portal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="www.srscinemas.net"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="35dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/arrow"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="60dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

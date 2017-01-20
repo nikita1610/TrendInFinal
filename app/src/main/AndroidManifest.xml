@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" package="com.trendinfinal.trendinfinal">
+
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+<application android:allowBackup="true" android:icon="@drawable/profile" android:label="TRENDIN"
+    android:supportsRtl="true" android:theme="@style/AppTheme" tools:replace="android:icon,android:label">
+    <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".NavDrawerActivity"></activity>
+
+    <activity android:name=".HomeActivity"></activity>
+
+    <activity android:name=".Dropbox_Main"></activity>
+    <activity android:name=".Dropbox_options"></activity>
+    <activity android:name=".MainCloudActivity"></activity>
+    <activity android:name=".MainCameraActivity"></activity>
+    <activity android:name=".jiitknuth" />
+    <activity android:name=".jiitdeveloper" />
+    <activity android:name=".jiitgdg" />
+    <activity android:name=".jiitradiance" />
+    <activity android:name=".jiitvhacker" />
+    <activity android:name=".jiithackearth" />
+    <activity android:name=".jiitbtech" />
+    <activity android:name=".jiitgraphics"></activity>
+
+    <activity android:name="com.dropbox.client2.android.AuthActivity" android:configChanges="orientation|keyboard"
+        android:launchMode="singleTask">
+        <intent-filter>
+
+            <!-- Change this to be db- followed by your app key -->
+            <data android:scheme="db-ftgrabi7y2lewwn" />
+
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".Main1CloudActivity"></activity>
+    <activity android:name=".FilePicker"></activity>
+    <meta-data android:name="com.google.android.geo.API_KEY"
+        android:value="@string/google_maps_key" />
+
+
+    <activity android:name="com.trendinfinal.trendinfinal.MapsActivity2" android:label="@string/title_activity_maps2">
+
+    </activity>
+    <activity android:name="MainMapActivity" />
+
+    <activity android:name=".dominos" />
+    <activity android:name=".pizza_hut" />
+    <activity android:name=".rolls_king" />
+    <activity android:name=".bakes_cakes" />
+    <activity android:name=".sandwedges" />
+    <activity android:name=".shipra_mall" />
+    <activity android:name=".windsor_street" />
+    <activity android:name=".aditya_mall" />
+    <activity android:name=".jaipuria_mall" />
+    <activity android:name=".main1buzz" />
+    <activity android:name=".MainActivityBuzz" />
+    <activity android:name=".LogoutActivity"/>
+<activity android:name=".LoginActivity"/>
+
+</application>
+
+</manifest>
